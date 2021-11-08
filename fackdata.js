@@ -1,0 +1,62 @@
+import React from 'react';
+
+const fakedata = [
+    {
+        img: "https://logistics.stylemixthemes.com/wp-content/uploads/2015/11/dreamstime_xxl_20955694-255x170.jpg",
+        title: "Cargo Insurance",
+        price: "1200",
+        description: "Cargo insurance protects you from financial loss due to damaged or lost cargo. It pays you the amount you’re insured for if a covered event happens to your freight. And these covered events are usually natural disasters, vehicle accidents, cargo abandonment, customs rejection, acts of war, and piracy.It is also different from the carrier liability and insurance policies that are usually available from dedicated cargo and freight insurance companies, freight forwarders, agents, and large brokers.The primary benefit of cargo insurance is that you minimize your financial loss even if your shipment is damaged or lost. The small investment (a.k.a. the premium) you pay provides peace of mind as your goods leave your warehouse."
+    },
+    {
+        img: "https://logistics.stylemixthemes.com/wp-content/uploads/2015/11/Fotolia_54040023_Subscription_Monthly_M-255x170.jpg",
+        title: "Car Transportation",
+        price: "900",
+        description: "A-1 Auto Transport offers several options to handle your personal, dealer, military or corporate automobile move. We feature open air, enclosed transport, door to door and terminal to terminal car shipping services. Additionally, we provide high end and luxury car transport services for vehicles that require careful handling and extra attention to detail.Open air car shipping typically means that your auto is loaded onto a multi-car carrier along with other vehicles before being moved. Think of what you might see on the highway, moving several new cars to an auto dealership-this is an open air transport carrier. A flatbed truck can also transport a single vehicle, though this is more costly and generally used for door to door shipping. While open air shipping is one of the more popular and cost-effective ways to move your vehicle, customers who are concerned about weather and road debris during transit may prefer the complete protection offered by enclosed auto transport."
+    },
+    {
+        img: "https://logistics.stylemixthemes.com/wp-content/uploads/2015/11/Fotolia_91953311_Subscription_Monthly_M-255x170.jpg",
+        title: "Multimodal Transport",
+        price: "1000",
+        description: "According to the United Nations Convention on International Multi-modal Transport, international multi-modal transport is a type of transport involving at least two different means of transport, through one contract between the parties (known as a multi-modal transport contract). Namely, this is a type of transport where the user contracts a logistical operator to transport cargo from the point of origin to its final destination, where more than one type of vehicle is required. The operator is responsible for coordinating the different modes of transport in order to complete a delivery from door to door. Apart from using different means of transport, there are two more features that are required in order to be known as multi-modal transport.Due to the above, multi-modal transport is associated with the appearance of cargo units that can be transported in different means of transport without any cargo breaks. Some of these units are the container and the swap. The container is a cargo container that enables land and sea transport. It is characterised by being watertight and protects against any inclement weather. The containers are also standardised according to standard ISO 668. The swap meantime is a cargo unit for the transportation of goods with the proper size for train and road transport. It differs from the containers in that it is not adapted to be transported by trucks, while the swap is."
+    },
+    {
+        img: "https://logistics.stylemixthemes.com/wp-content/uploads/2015/11/Fotolia_66820150_Subscription_Monthly_M-255x170.jpg",
+        title: "Road Freight",
+        price: "600",
+        description: "Road transport is a classic method of freight carriage and remains a versatile option today, well-suited to many needs. At Bilogistik we offer all kinds of national and international road transport. Among the advantages of road transport are its speed for short and medium distances, its flexibility and door- to - door service.It doesn’t take long to get the logistics of road transport underway as they can be easily adapted to the requirements of a specific route and cargo while still offering a very competitive price. At Bilogistik we transport complete cargoes of any kind of freight, with savings in both time and costs.Thanks to our own truck fleet and a solid network of associates, we can offer you an efficient and streamlined road freight transport service.We offer a streamlined international overland freight transport service, with guaranteed security and punctual delivery.Thanks to our solutions, you can send goods all over Europe at a very reasonable cost. If you need your goods to reach any part of the continent efficiently offering the best value for money, we’re your people."
+    },
+    {
+        img: "https://logistics.stylemixthemes.com/wp-content/uploads/2015/11/Fotolia_70457153_Subscription_Monthly_M-255x170.jpg",
+        title: "Sea Freight",
+        price: "800",
+        description: "Sea freight forwarding, also known as ocean freight, is the transport of goods shipped in sea containers around the world. Containers may be filled by a single importer (FCL) or by multiple customers (LCL). The sea freight forwarder is not the company that will perform the transport, but only a connector between the shipper and the carrier. The sea freight forwarder acts on behalf of the shipper to negotiate the prices and arrange all the transportation details with the carrier.The cost for shipping goods via sea freight varies depending on the size and weight of the cargo, the route and also type of vessel needed. Sea freight transportation is usually the cheapest solution for shipping a large quantity of products in intercontinental routes. To get a quote with Eurosender, all you have to do is send your shipping requirements and our logistics experts will provide you will a tailored solution.What makes the costs of sea transport so affordable for shipping large cargo is that this is the most carbon-efficient mode of transport in terms of fuel consumption. Which means that sea ships and vessels are able to carry more quantity per fuel, having a direct effect on the overall cost of the service. However, since the transport of goods by sea only makes the connection between ports, additional road transport is often required to make sure the cargo is transferred from the port to its final destination."
+    },
+    {
+        img: "https://logistics.stylemixthemes.com/wp-content/uploads/2015/11/Fotolia_44261036_Subscription_Monthly_XL-255x170.jpg",
+        title: "Air Freight",
+        price: "1300",
+        description: "We offer door-to- door and door-to-airport services to over 800 hundred cities in major markets across the globe, specialising in time sensitive shipments. Our lead times? 48-hour arrival at destination airport with Express Service, 3-5 days with Standard Service. This makes air freight, by far the fastest way to transport your goods no matter where the pick-up and drop-off points are. This service is essential when time is of the essence and the delivery is urgent. If you are looking to transport your goods in a fast and reliable way, air freight is the way to go. Another advantage which goes hand in hand with this specific type of service is that the goods are handled less times than in any other type of freight solution. This makes air freight the go to way of transporting goods which are delicate such as electronic components, spare parts etc… Whether you are interested in importing or exporting products, we can cater to your needs. If you are importing goods, we can handle customs clearance as well as the delivery. If on the other hand, you are seeking to export your goods, at Jet Freight we can handle the customs clearance, pick-up and dispatch too. Where air freight is concerned, we can also offer customised solutions. If you have oversized cargo to import, we can organise the first leg by air and the second leg by sea. If your aim is that of exporting goods, we can organise the first leg by sea and the second leg by air. At Jet Freight we also offer passive temperature control shipments by air for both import and export."
+    },
+    {
+        img: "https://logistics.stylemixthemes.com/wp-content/uploads/2015/11/Fotolia_77985301_Subscription_Monthly_M-255x170.jpg",
+        title: "Packaging and Storage",
+        price: "400",
+        description: "A packaging manufacturer has machinery to produce, typically, one type of packaging. They will either make custom packaging to order, or will make stock packaging to sell to distributors . Packaging manufacturers who make custom packaging will use in-house salespeople or outside brokers to sell their packaging.So when you call a packaging manufacturer looking for custom packaging, you will speak with an in -house salesperson who works for a salary and some type of commission incentive.These in -house salespeople are usually well informed and experienced with their company’s type of packaging, but sometimes, little else.So if you need other components to your packaging or just some informed advice, you may have trouble getting what you need.Of course, it depends on the experience of the salesperson you are dealing with; they may be incredibly competent and well informed.These types of packaging companies can only produce really small volumes of packaging that are mainly to be used as samples for presentation purposes. The prototypes are made by hand, assisted by light machinery for “comping” a realistic looking packaging complete with custom printing. Prototype companies will structurally design your packaging and provide some graphic production services (not branding). So if you need a packaging prototype to present to a buyer, these types of companies can be very useful. Of course a packaging manufacturer or packaging broker can provide prototypes as well, but these usually come with some type of commitment on your part. I discuss prototypes in more detail in this article."
+    },
+    {
+        img: "https://logistics.stylemixthemes.com/wp-content/uploads/2015/11/Fotolia_85388194_Subscription_Monthly_M-255x170.jpg",
+        title: "Freight Forwarding",
+        price: "500",
+        description: "A freight forwarder, forwarder, or forwarding agent, is a person or company that organizes shipments for individuals or corporations to get goods from the manufacturer or producer to a market, customer or final point of distribution. Forwarders contract with a carrier or often multiple carriers to move the goods from one country to another. A forwarder does not move the goods but acts as an expert in the logistics network. The carriers can use a variety of shipping modes, including ships, airplanes, trucks, and railroads, and often use multiple modes for a single shipment. For example, the freight forwarder may arrange to have cargo moved from a plant to an airport by truck, flown to the destination city and then moved from the airport to a customer's building by another truck. International freight forwarders typically handle international shipments and have additional expertise in preparing and processing customs documentation and performing activities pertaining to international shipments. Information typically reviewed by a freight forwarder includes the commercial invoice, shipper's export declaration, bill of lading and other documents required by the carrier or country of export, import, and/or transshipment. The FIATA shorthand description of the freight forwarder as the \"Architect of Transport\" illustrates the commercial position of the forwarder relative to its client. In Europe, some forwarders specialize in \"niche\" areas such as rail-freight, and collection and deliveries around a large port."
+    },
+]
+
+const fackdata = () => {
+    return (
+        <div>
+
+        </div>
+    );
+};
+
+export default fackdata;

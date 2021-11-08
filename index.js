@@ -17,12 +17,13 @@ console.log(uri);
 async function run() {
   try {
     await client.connect();
-    const database = client.db("SSN_delivery");
+    console.log("connecting")
+    const database = client.db("fast_delivery");
     const serviceCollection = database.collection("services");
     const blogCollection = database.collection("blogs");
     const orderCollection = database.collection("orders");
     const teamCollection = database.collection("team_members");
-    const messageCollection = database.collection("messages");
+    // const messageCollection = database.collection("messages");
 
     // GET Services API
     app.get("/services", async (req, res) => {
@@ -94,14 +95,14 @@ async function run() {
       const result = await orderCollection.insertOne(order);
       res.json(result);
     });
-
-    // POST a message api
-    app.post("/message", async (req, res) => {
-      const message = req.body;
-      const result = await messageCollection.insertOne(message);
-      res.json(result);
-    });
-
+    /* 
+        // POST a message api
+        app.post("/message", async (req, res) => {
+          const message = req.body;
+          const result = await messageCollection.insertOne(message);
+          res.json(result);
+        });
+     */
     // PUT / Update orders status api
     app.put("/orders/:id", async (req, res) => {
       const id = req.params.id;
@@ -136,9 +137,9 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("SSN Delivery server running");
+  res.send("Fast Delivery server running");
 });
 
 app.listen(port, () => {
-  console.log(`SSN Deliver app listening at http://localhost:${port}`);
+  console.log(`Fast Deliver app listening at http://localhost:${port}`);
 });
