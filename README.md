@@ -4,7 +4,7 @@
 
 Fast delivery is a worldwide delivery service provider based in Bangladesh.
 
-<!-- [Visit our website](https://deliveryhut-3fafc.web.app/) -->
+[Visit our website](https://awesome-mayer-0d3c7a.netlify.app/)
 
 ## About the website -
 
@@ -14,6 +14,4 @@ Fast delivery is a worldwide delivery service provider based in Bangladesh.
 - We have reputation for superfast delivery.
 - From our website you can know our previous clients feedback.
 
-## Author
 
-<!-- - [Suhag Al Amin](https://github.com/developer-suhag) -->
